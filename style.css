@@ -3284,12 +3284,12 @@ html[xmlns] .slider-wrap {
 		Sticky Header
 	-----------------------------------------------------------------*/
 
-	#logo img {
+	#PA-logo img {
 		-webkit-transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 	}
 
-	#logo img { max-height: 100%; }
+	#PA-logo img { max-height: 100%; }
 
 	.sub-menu-container,
 	.mega-menu-content {
@@ -3440,6 +3440,19 @@ html[xmlns] .slider-wrap {
 }
 
 #logo a.retina-logo { display: none; }
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+	#PA-logo img{
+		height: 72px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	#PA-logo img{
+		margin: 3rem 0;
+	}
+}
+
 
 @media (min-width: 992px) {
 
@@ -4389,7 +4402,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	}
 
 	.side-header #logo img {
-		max-width: 100%;
+		width: 100%;
 	}
 
 	.side-header .header-misc {

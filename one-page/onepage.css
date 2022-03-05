@@ -330,7 +330,7 @@ textarea.border-form-control {
 	Footer Widgets
 ---------------------------------------------------------------------------- */
 
-#footer .widget { padding: 30px 0; }
+#footer .widget { padding: 15px 0; }
 
 #footer .widget > h4 {
 	margin-bottom: 50px;
@@ -652,5 +652,5 @@ textarea.border-form-control {
 #PA-title {
   -webkit-text-fill-color: black;
   -webkit-text-stroke-color: #9DA097;
-  -webkit-text-stroke-width: 2.00px; 
+  -webkit-text-stroke-width: 1px; 
 }
